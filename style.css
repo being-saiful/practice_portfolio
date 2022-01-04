@@ -1,3 +1,9 @@
-h1{
+body{
     font-family: 'Luxurious Roman', cursive;
+}
+h1{
+    font-size: 50px;
+}
+.colored{
+    color: orange;
 }
