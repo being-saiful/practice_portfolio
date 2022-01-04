@@ -1,5 +1,6 @@
 body{
     font-family: 'Luxurious Roman', cursive;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -12,8 +13,8 @@ section{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-left: 2%;
+    padding-top: 4%;
 }
 .half-width img{
     width: 80%;
@@ -23,4 +24,15 @@ section{
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(pictures/top-banner.png);
+    background-repeat: no-repeat;
+}
+.side-banner{
+    background-image: url(pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
